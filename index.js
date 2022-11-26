@@ -7,7 +7,7 @@
 
 fetch('https://fakestoreapi.com/products').then((data)=>{
 
-    return data.json();
+    return data.json(); // data from the API has changed from json to object.
 
 }).then((dataFromApi)=>{
 
